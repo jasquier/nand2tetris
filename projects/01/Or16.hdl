@@ -12,5 +12,54 @@ CHIP Or16 {
     OUT out[16];
 
     PARTS:
-    //// Replace this comment with your code.
+    Nand (a=a[0], b=a[0], out=nanda0);
+    Nand (a=a[1], b=a[1], out=nanda1);
+    Nand (a=a[2], b=a[2], out=nanda2);
+    Nand (a=a[3], b=a[3], out=nanda3);
+    Nand (a=a[4], b=a[4], out=nanda4);
+    Nand (a=a[5], b=a[5], out=nanda5);
+    Nand (a=a[6], b=a[6], out=nanda6);
+    Nand (a=a[7], b=a[7], out=nanda7);
+    Nand (a=a[8], b=a[8], out=nanda8);
+    Nand (a=a[9], b=a[9], out=nanda9);
+    Nand (a=a[10], b=a[10], out=nanda10);
+    Nand (a=a[11], b=a[11], out=nanda11);
+    Nand (a=a[12], b=a[12], out=nanda12);
+    Nand (a=a[13], b=a[13], out=nanda13);
+    Nand (a=a[14], b=a[14], out=nanda14);
+    Nand (a=a[15], b=a[15], out=nanda15);
+
+    Nand (a=b[0], b=b[0], out=nandb0);
+    Nand (a=b[1], b=b[1], out=nandb1);
+    Nand (a=b[2], b=b[2], out=nandb2);
+    Nand (a=b[3], b=b[3], out=nandb3);
+    Nand (a=b[4], b=b[4], out=nandb4);
+    Nand (a=b[5], b=b[5], out=nandb5);
+    Nand (a=b[6], b=b[6], out=nandb6);
+    Nand (a=b[7], b=b[7], out=nandb7);
+    Nand (a=b[8], b=b[8], out=nandb8);
+    Nand (a=b[9], b=b[9], out=nandb9);
+    Nand (a=b[10], b=b[10], out=nandb10);
+    Nand (a=b[11], b=b[11], out=nandb11);
+    Nand (a=b[12], b=b[12], out=nandb12);
+    Nand (a=b[13], b=b[13], out=nandb13);
+    Nand (a=b[14], b=b[14], out=nandb14);
+    Nand (a=b[15], b=b[15], out=nandb15);
+
+    Nand (a=nanda0, b=nandb0, out=out[0]);
+    Nand (a=nanda1, b=nandb1, out=out[1]);
+    Nand (a=nanda2, b=nandb2, out=out[2]);
+    Nand (a=nanda3, b=nandb3, out=out[3]);
+    Nand (a=nanda4, b=nandb4, out=out[4]);
+    Nand (a=nanda5, b=nandb5, out=out[5]);
+    Nand (a=nanda6, b=nandb6, out=out[6]);
+    Nand (a=nanda7, b=nandb7, out=out[7]);
+    Nand (a=nanda8, b=nandb8, out=out[8]);
+    Nand (a=nanda9, b=nandb9, out=out[9]);
+    Nand (a=nanda10, b=nandb10, out=out[10]);
+    Nand (a=nanda11, b=nandb11, out=out[11]);
+    Nand (a=nanda12, b=nandb12, out=out[12]);
+    Nand (a=nanda13, b=nandb13, out=out[13]);
+    Nand (a=nanda14, b=nandb14, out=out[14]);
+    Nand (a=nanda15, b=nandb15, out=out[15]);
 }
