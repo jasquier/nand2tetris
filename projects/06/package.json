@@ -1,12 +1,10 @@
 {
-  "name": "06",
+  "name": "Project 06 Assembler",
   "version": "1.0.0",
-  "description": "",
-  "main": "dist/assembler.js",
+  "description": "An assembler for Nand to Tetris.",
+  "main": "dist/main.js",
   "type": "module",
-  "scripts": {
-    "start": "tsx assembler.ts"
-  },
+  "scripts": {},
   "keywords": [],
   "author": "John A. Squier <jasquier@gmail.com>",
   "license": "ISC",
